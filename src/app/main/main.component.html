@@ -1,1 +1,30 @@
-<p>main works!</p>
+<!--
+File: main.component.html
+Author: Sánta Renáta Diána
+Copyright: 2022, Sánta Renáta Diána
+Group: Szoft II N
+Date: 2022-12-26
+Github: https://github.com/SantaRenata/
+Licenc: GNU GPL
+-->
+
+<h2>Települések</h2>
+
+<table class="table table-bordered">
+    <thead class="table-secondary">
+        <tr>
+            <th>Név</th>
+            <th>Megye</th>
+            <th>Terület(km²)</th>
+            <th>Népesség(fő)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let settlement of settlement">
+            <td>{{settlement.name}}</td>
+            <td>{{settlement.country}}</td>
+            <td>{{settlement.area}}</td>
+            <td>{{settlement.population}}</td>
+        </tr>
+    </tbody>
+</table>

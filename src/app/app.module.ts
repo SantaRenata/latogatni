@@ -1,3 +1,13 @@
+/*
+File: app.module.ts
+Author: Sánta Renáta Diána
+Copyright: 2022, Sánta Renáta Diána
+Group: Szoft II N
+Date: 2022-12-26
+Github: https://github.com/SantaRenata/
+Licenc: GNU GPL
+*/
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
